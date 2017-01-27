@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 19, 2017, 8:44:16 PM
+    Author     : greg.swank
+*/
+
+.root {
+    -fx-background-image: url("Mangaia-milky-way.jpg");
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(0,255,100,0.75) , 5,0,0,0 );
+}
+.label:hover {
+    -fx-effect: dropshadow( gaussian , rgba(0,255,100,1) , 20,.5,0,0 );    
+}
+
+.button {
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#E0DFDB, #2A5058);
+}
+
+.button:hover {
+    -fx-effect: dropshadow( gaussian , rgba(0,255,100,1) , 20,0,0,0 );
+}
+
+#welcome-text {
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #00ffaa;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#actiontarget {
+  -fx-fill: #00ffaa;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(0,255,100,0.75) , 10,0,0,0 ); 
+}
+
